@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "vh/newsletter",
+    "version": "0.1.0",
+    "title": "Newsletter",
+    "category": "widgets",
+    "icon": "email-alt2",
+    "description": "Newsletter form",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": "Personally Newsletter"
+        },
+        "text": {
+            "type": "string",
+            "default": "A bi-weekly newsletter of design inspiration, resources and anything related to career development."
+        }
+    },
+    "textdomain": "vh-newsletter",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css",
+    "viewScript": "file:./view.js"
+}

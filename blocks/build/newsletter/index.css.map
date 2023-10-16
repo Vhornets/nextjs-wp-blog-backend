@@ -1,0 +1,1 @@
+{"version":3,"file":"newsletter/index.css","mappings":";;;AAAA;EACI;EACA;EACA;EACA;EACA;AACJ,C","sources":["webpack://vh-fullsite/./blocks/src/newsletter/editor.scss"],"sourcesContent":[".wp-block-vh-newsletter__input {\n    box-sizing: border-box;\n    outline: 1px solid grey;\n    color: grey;\n    height: 48px;\n    top: -1px;\n}"],"names":[],"sourceRoot":""}

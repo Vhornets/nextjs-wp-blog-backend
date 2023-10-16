@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "vh/badge",
+    "version": "0.1.0",
+    "title": "Badge",
+    "category": "widgets",
+    "icon": "nametag",
+    "description": "Simple badge with custom text",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "text": {
+            "type": "string",
+            "default": "Button text"
+        },
+
+        "alignment": {
+            "type": "string",
+            "default": "none"
+        }
+    },
+    "textdomain": "vh-badge",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css",
+    "viewScript": "file:./view.js"
+}

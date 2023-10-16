@@ -1,0 +1,12 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./blocks/src/newsletter/editor.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.wp-block-vh-newsletter__input {
+  box-sizing: border-box;
+  outline: 1px solid grey;
+  color: grey;
+  height: 48px;
+  top: -1px;
+}
+
+/*# sourceMappingURL=index.css.map*/

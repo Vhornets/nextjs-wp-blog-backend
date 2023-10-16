@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "vh/posts",
+    "version": "0.1.0",
+    "title": "Posts",
+    "category": "widgets",
+    "icon": "table-row-before",
+    "description": "Post card list",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "headerText": {
+            "type": "string",
+            "default": "Header text"
+        },
+        "buttonText": {
+            "type": "string",
+            "default": "View all"
+        },
+        "buttonURL": {
+            "type": "string",
+            "default": "#"
+        },
+        "showHeader": {
+            "type": "boolean",
+            "default": true
+        },
+        "postType": {
+            "type": "string",
+            "default": "posts"
+        },
+        "postCategory": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "textdomain": "vh-posts",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css",
+    "viewScript": "file:./view.js"
+}
